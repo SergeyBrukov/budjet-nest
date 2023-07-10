@@ -1,0 +1,13 @@
+.animation-click-btn {
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 16px 0 rgba(252, 249, 252, 0.65);
+  }
+
+  &:active {
+    transform: translateY(4px);
+    box-shadow: unset;
+  }
+}
